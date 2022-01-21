@@ -1,12 +1,11 @@
 import CerrarModal from '../img/cerrar.svg'
 
-const Modal = ({setModal}) => {
+const Modal = ({setModal, animarModal}) => {
+
+
 
 const ocultarModal = () => {
-    setModal(false)
-    setTimeout(() => {
-        
-    }, 3000);
+    setModal(false)    
 }
 
   return <div className="modal">
