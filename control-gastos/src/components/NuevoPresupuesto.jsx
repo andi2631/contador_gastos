@@ -41,7 +41,7 @@ const NuevoPresupuesto = ({presupuesto, setPresupuesto, setIsValidPresupuesto}) 
                 </div>
 
                 <input type="submit" value='añadir'/>
-                {mensaje && mensaje === '' ? <Mensaje tipo="error">!ingrese su presupuesto!</Mensaje> 
+                {mensaje === '' ? <Mensaje tipo="vacio">!ingrese su presupuesto!</Mensaje> 
                 : mensaje === 'No es un presupuesto válido' ? 
                 <Mensaje tipo="error">{mensaje/*esto es el children y el tipo error es la prop que se le pasa*/ }</Mensaje> :
                  <Mensaje tipo="successfull">{mensaje/*esto es el children y el tipo error es la prop que se le pasa*/ }</Mensaje>

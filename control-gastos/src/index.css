@@ -149,11 +149,16 @@ header h1 {
     background-color: var(--blanco);
     border-left: 5px solid green;
     color: green;
+   
 }
 
 .alerta.vacio{
-    
+    background-color: var(--gris);   
+    color: yellow;
+   margin-left: 10%;
+   margin-right: 10%;
 }
+
 .alerta.success {
 }
 
@@ -333,10 +338,12 @@ main {
     position: fixed;
     bottom: 5rem;
     right: 5rem;
+    margin-bottom: 20%;
 }
 
 .nuevo-gasto img {
     width: 5rem;
+    
 }
 .nuevo-gasto img:hover {
     cursor: pointer;
@@ -352,13 +359,13 @@ main {
 }
 .modal .cerrar-modal {
     position: absolute;
-    right: 3rem;
-    top: 3rem;
-    width: 3rem;
-    height: 3rem;
+    right: 2%;   
+    cursor: pointer; 
+    
 }
 .modal .cerrar-modal img {
-    width: 100%;
+    width: 10%;
+    float: right;
 }
 
 .modal .formulario {
@@ -412,4 +419,12 @@ body .modal {
     align-items: center;
     font-size: 2.4rem;
     text-align: right;
+}
+
+.contenido-presupuesto span.pres{
+font-size: larger;
+color: --gris-claro;
+margin-left:5%
+
+
 }
